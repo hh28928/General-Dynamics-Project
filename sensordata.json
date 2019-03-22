@@ -1,0 +1,63 @@
+{"devices":
+	[
+		{
+            "device": 
+				"NEO6MGPS", "strings":
+					[
+						"$GPRMC,,V,,,,,,,,,,N*53",
+						"$GPVTG,,,,,,,,,N*30",
+						"$GPGGA,,,,,,0,00,99.99,,,,,,*48",
+						"$GPGSA,A,1,,,,,,,,,,,,,99.99,99.99,99.99*30",
+						"$GPGSV,1,1,00*79",
+						"$GPGLL,,,,,,V,N*64"
+					]
+		},
+		
+		{
+			"acceleration":
+				{
+					"accel_z": -9.909276592249999,
+					"accel_y":  0.11904292434999998,
+					"accel_x": -0.053240302850000004
+				},
+			"device":
+				"LSM9DS1",
+			"magnetometer":
+				{
+					"mag_x": -2.15894,
+					"mag_z": -2.15894,
+					"mag_y": -2.15894
+				},
+			"temperature": 
+				28.375, 
+			"gyroscope":
+				{
+					"gyro_y":
+						7.53375,
+					"gyro_x":
+						0.31500000000000006,
+					"gyro_z":
+						-0.49875
+				}
+		},
+		
+		{
+			"altitude":
+				57.01,
+			"device":
+				"BMP280",
+			"temperature":
+				41.6,
+			"pressure":
+				1006.4
+		},
+		{
+			"device":
+				"DHT22",
+			"temperature":
+				30.9,
+			"humidity": 
+				21.9
+		}
+	]
+}
