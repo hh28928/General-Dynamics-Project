@@ -10,7 +10,7 @@ echo The files have been cleaned
 echo Starting the moving of files into directory
 prefix="cleaned"
 location="Cleaned_Files"
-if [ ! -d "$location"]; then
+if [[ ! -d "$location" ]]; then
 	mkdir $location
 fi
 for name in $names
