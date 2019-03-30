@@ -16,7 +16,7 @@ with open('cleaned' + fileToClean, 'w') as f:
                 print(name + "  " + var, file=f)
                 #print(var, file=f)
 
-print(fileToClean + " has been cleaned, check the output file!!!!")
+#print(fileToClean + " has been cleaned, check the output file!!!!")
 
 
 
