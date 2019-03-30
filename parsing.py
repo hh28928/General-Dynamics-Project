@@ -1,6 +1,6 @@
 import re
-
-fileToClean = input("what is the file name that needs cleaning? ")
+import sys
+fileToClean = sys.argv[1]
 with open('cleaned' + fileToClean, 'w') as f:
     #print('#[{"metric":"d1.bmp.altitude","tags":{"device":"1","sensor":"BMP280"},"aggregateTags":[],"dps":"')
     print("Timestamp" + "   value",  file = f)
