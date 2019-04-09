@@ -1,5 +1,5 @@
 #!/bin/bash
-names='bmpAlt.txt bmpPre.txt bmpTemp.txt dhtHum.txt dhtTemp.txt lsmAccX.txt lsmAccY.txt lsmAccZ.txt lsmGyrX.txt lsmGyrY.txt lsmGyrZ.txt lsmMagX.txt lsmMagY.txt lsmMagZ.txt lsmTmp.txt'
+names='bmpAlt_d2.txt bmpPre_d2.txt bmpTemp_d2.txt dhtHum_d2.txt dhtTemp_d2.txt lsmAccX_d2.txt lsmAccY_d2.txt lsmAccZ_d2.txt lsmGyrX_d2.txt lsmGyrY_d2.txt lsmGyrZ_d2.txt lsmMagX_d2.txt lsmMagY_d2.txt lsmMagZ_d2.txt lsmTmp_d2.txt'
 echo About to start cleaning the files they will be available in the Cleaned_Files directory
 echo If the Cleaned_Files Directory does not exist it will be created
 for name in $names
