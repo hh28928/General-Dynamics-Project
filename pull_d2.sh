@@ -4,7 +4,7 @@ curl GET "http://192.168.1.247:8080/api/query?start=1n-ago&m=sum:d2.lsm.accel.y"
 curl GET "http://192.168.1.247:8080/api/query?start=1n-ago&m=sum:d2.lsm.accel.z" > lsmAccZ_d2.txt
 curl GET "http://192.168.1.247:8080/api/query?start=1n-ago&m=sum:d2.lsm.temperature" > lsmTmp_d2.txt
 curl GET "http://192.168.1.247:8080/api/query?start=1n-ago&m=sum:d2.lsm.mag.x" > lsmMagX_d2.txt
-curl GET "http://192.168.1.247:8080/api/query?start=1-ago&m=sum:d2.lsm.mag.y" > lsmMagY_d2.txt
+curl GET "http://192.168.1.247:8080/api/query?start=1n-ago&m=sum:d2.lsm.mag.y" > lsmMagY_d2.txt
 curl GET "http://192.168.1.247:8080/api/query?start=1n-ago&m=sum:d2.lsm.mag.z" > lsmMagZ_d2.txt
 curl GET "http://192.168.1.247:8080/api/query?start=1n-ago&m=sum:d2.lsm.gyro.x" > lsmGyrX_d2.txt
 curl GET "http://192.168.1.247:8080/api/query?start=1n-ago&m=sum:d2.lsm.gyro.y" > lsmGyrY_d2.txt
