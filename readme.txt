@@ -7,4 +7,3 @@ run the Shell script named (value_strip.sh)
 
 run the Bash script named (value_strip_d2.bash)
 ./value_strip_d2.bash
-
